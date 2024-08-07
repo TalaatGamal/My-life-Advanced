@@ -286,6 +286,13 @@ body{
   padding-left: 10px;
   padding-right: 10px;
 }
+.pri{
+  display: none;
+}
+
+.menu-icon {
+  display: none;
+}
 .home{
   background-color: rgba(0, 0, 0, 0);
   width: 100vw;
@@ -458,4 +465,71 @@ body{
     background-color: #0095ff00;
     border-radius: 10px;
     
+}
+
+
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .links-header {
+      display: none;
+      flex-direction: column;
+      gap: 0;
+  }
+
+  .links-header li {
+      padding: 10px 0;
+      font-size:larger;
+  }
+
+  
+.pri-space{
+ display: none;
+}
+.pri{
+  display: block;
+  color: #ff000000;
+  background-color: #0088ff00;
+  margin: 60px;
+  padding: 0px;
+}
+.pro{
+  color: #ff0000;
+  border-left: #ff0000 solid 2px;
+  border-right: #0088ff solid 2px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+  .menu-icon {
+      display: block;
+  }
+
+  .links-header.active {
+      display: flex;
+      flex-direction:  column;
+      width: 100%;
+      position: fixed;
+      top: 10vh; /* Adjust according to your header height */
+      left: 0;
+      background-color: rgba(0, 0, 0, 0.8);
+      z-index: 1;
+      /* animation: liste 20s linear infinite; */
+  }
+
+  
+@keyframes blink {
+  0%, 100% {
+      color: white;
+  }
+}
+
+  header {
+      height: 6vh;
+      top: 0vh;
+  }
+
+  header .content img {
+      width: 35px;
+  }
 }

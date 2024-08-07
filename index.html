@@ -6,6 +6,19 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="images/icons/my-life-icon.png">
+    <script>
+        function toggleMenu() {
+            console.log('Menu icon clicked');
+            const menu = document.getElementById('links-header');
+            if (menu) {
+                console.log('Menu element found');
+                menu.classList.toggle('active');
+                console.log('Menu state toggled');
+            } else {
+                console.log('Menu element not found');
+            }
+        }
+    </script>
 </head>
 <body>
     <div id="password-form" style="display: none;">
@@ -42,7 +55,7 @@
 
                     <div class="links-div">
                         <div class="content-links-div">
-                            <ul class="links-header">
+                            <ul class="links-header" id="links-header">
 
                                 <li><a href="#home">Home</a></li> 
                                 <li><a href="my-devices/index.html">Devices</a> </li>
@@ -51,16 +64,19 @@
                                 <li><a href="my-accounts/index.html">Accounts</a></li>  
                                 <li><a href="All-of-my-photos/index.html">Photos</a></li>
                                 <li><a href="my-friends/index.html">Friends</a></li>
+                                <li class="pri"><a href="https://talaatgamal.github.io/engo/" class="pro">Private</a></li>
 
                             </ul> 
+                            <div class="pri-space">
+                                <div class="content-pri-space">
+                                    <a href="https://talaatgamal.github.io/engo/">Private</a>
+                                </div>
+                            </div>
+                            <div class="menu-icon" onclick="toggleMenu()">&#9776;</div><!--uu-->
                         </div>
                     </div>
 
-                    <div class="pri-space">
-                        <div class="content-pri-space">
-                            <a href="https://talaatgamal.github.io/engo/">Private</a>
-                        </div>
-                    </div>
+                   
                 </div>
             </header>
 
