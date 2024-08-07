@@ -1,0 +1,188 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(0, 0, 0);
+    /* background-image: url(https://images.unsplash.com/photo-1721613884827-02dbb49df368?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D); */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    display: none;  /*Security*/
+}
+                    /*Start SEcurity*/
+#password-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding-right: 20vw;
+    padding-left: 10vw;
+    padding-top: 6.5vw;
+    align-items: start;
+    height: 100vh;
+    background-color: #08798a;
+    /* background-image: url(https://images.unsplash.com/photo-1722941600511-e133ca2fc837?q=80&w=1965&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D); */
+    /* background-image: url(https://images.unsplash.com/photo-1592399737996-fb91cf01b7fb?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D); */
+    /* background-image: url(https://media.istockphoto.com/id/1224542830/photo/dark-haired-bearded-man-hugging-his-pregnant-wife-while-sleeping.jpg?s=2048x2048&w=is&k=20&c=gLFs4O78SVtKEcMbux9pIqaTrfhf6KL0QeET9xCD7N8=); */
+    /* background-image: url(https://media.istockphoto.com/id/174945387/photo/amorous-couple-with-fun-in-the-park.jpg?s=2048x2048&w=is&k=20&c=vdvaxIQ0NW0Cm_QP8z8AyOStglVDe1XGhGROWoKO9fA=); */
+    /* background-image: url(https://media.istockphoto.com/id/93246104/photo/couple-in-love.jpg?s=2048x2048&w=is&k=20&c=q6_pgm5sAfgA6Q588mmQF9dy_ZTJpTXGligYfU0YZKY=); */
+    /* background-image: url(https://images.unsplash.com/photo-1721613884827-02dbb49df368?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D); */
+    background-image: url(https://images.unsplash.com/photo-1722859179853-10a04f0144da?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  form{
+    background-color: #00250e82;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 25vw;
+    height: 40vh;
+    color: #ffffff;
+    border-radius: 20px;
+    border: #8a8300 solid 4px;
+    gap: 20px;
+  }
+  label{
+    /* background-color: #000000; */
+    width: 8vw;
+    height: 5vh;
+    color: #ffffff;
+    border-radius: 5px;
+    border: #ffffff00 solid 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .s{
+    background-color: #000000;
+    width: 7vw;
+    height: 5vh;
+    color: #ffffff;
+    border-radius: 5px;
+    border: #0b6ab3af solid 2px;
+  }
+  .s:hover{
+    cursor:progress;
+  }
+  
+  .f{
+    background-color: #00000000;
+    width: 8vw;
+    height: 5vh;
+    color: #00a6ff;
+    border-radius: 5px;
+    border: #16b30b00 solid 2px;
+    font-size: 15px;
+    width: max-content;
+  }
+  .f:hover{
+    cursor:progress;
+  }
+
+  input{
+    background-color: #00000085;
+    width: 15vw;
+    height: 5vh;
+    color: #0091ff;
+    border-radius: 5px;
+    border: #ffffff77 solid 2px;
+  }
+.footer-sec{
+    color: #ffffff;
+    overflow: hidden;
+    background-color: #000000;
+    width: 100vw;
+    height: 7vh;
+    position: absolute;
+    top: 93vh;
+    left: 0vw;
+}
+.content-footer-sec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height: 7vh;
+    background-color: #00000000;
+}
+.content-footer-sec h1{
+    margin: 20px;
+    font-size: 20px;
+    border-left: #00a6ff solid 2px;
+    border-right: #0088ff solid 2px;
+    padding: 10px;
+    background-color: #0095ff00;
+    border-radius: 10px;
+    
+}
+.pass-info{
+    background-color: #004e8a00;
+    font-size: 12px;
+    font-weight: 600;
+    color: #ffffff5c;
+}
+                    /*end Security*/
+#content{
+    width: max-content;
+    height: max-content;
+    background-color: #000000;
+}
+.main-container{
+    background-color: #000000;
+    width: 100vw;
+    min-height: 100vh;
+    height: max-content;
+}
+.home{
+    background-color: #000000;
+    width: 100vw;
+    min-height: 100vh;
+    height: max-content;
+}
+.my-fev-photos{
+    background-color: #682222;
+    width: 100vw;
+    min-height: 100vh;
+    height: max-content;
+}
+.footer{
+    color: #ffffff;
+    overflow: hidden;
+    background-color: #000000;
+    width: 100vw;
+    height: 5vh;
+}
+.content-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height: 5vh;
+    background-color: #8a830000;
+    padding-left: 20vw;
+    padding-right: 20vw;
+}
+.content-footer h1{
+    margin: 20px;
+    font-size: 20px;
+    border-left: #ff000000 solid 2px;
+    border-right: #ff000000 solid 2px;
+    padding: 10px;
+    background-color: #0095ff00;
+    border-radius: 10px;
+    
+}
