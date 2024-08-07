@@ -280,6 +280,11 @@ body{
 }
 .pri-space{
   margin-left: 5vw;
+  border-right: #0091ff solid 2px;
+  border-left: #ff0000 solid 2px;
+  /* padding: 5px; */
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .home{
   background-color: rgba(0, 0, 0, 0);
