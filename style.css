@@ -61,7 +61,7 @@ body{
     height: 40vh;
     color: #ffffff;
     border-radius: 20px;
-    border: #8a0000 solid 4px;
+    /* border: #8a0000 solid 4px; */
     gap: 20px;
     /* background-image: url(https://media.istockphoto.com/id/1333258045/photo/drone.jpg?s=2048x2048&w=is&k=20&c=d3eHyV9vfiYIVu2U9HnzX2lLHGjrZ_d_7X9whXTpnAo=); */
     background-position: center;
@@ -80,15 +80,23 @@ body{
     justify-content: center;
   }
   .s{
-    background-color: #0000007b;
+    background-color: #00000000;
     width: 7vw;
     height: 5vh;
-    color: #ffffff;
-    border-radius: 8px;
-    /* border: #0091ffaf solid 2px; */
+    color: #91caff;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 15px;
+    border: #0091ff00 solid 2px;
+    border-bottom: #0088ff solid 3px;
+    box-shadow: #0088ff74 0px 30px 50px 2px;
+    cursor: pointer;
+    transition: 0.5s;
   }
   .s:hover{
-    cursor:progress;
+    background-color: #00a2ff00;
+    color: #bababa;
+    border-top: #0088ff solid 3px;
   }
   .f{
     background-color: #000000;
@@ -96,17 +104,21 @@ body{
     height: 5vh;
     color: #ff7f7f;
     border: #ff0000af solid 2px;
-    border-radius: 5px;
+    border-radius: 9px;
     font-size: 15px;
     width: max-content;
     padding: 10px;
-  }
+    cursor: pointer;
+    transition: 0.5s;
+   }
   .f:hover{
-    cursor:progress;
+    background-color: #00000000;
+    color: #bababa;
+    border: #7d7d7d solid 2px;
   }
   input{
     background-color: #00000085;
-    width: 15vw;
+    width: 17vw;
     height: 5vh;
     color: #0091ff;
     border-radius: 8px;
@@ -744,7 +756,7 @@ form{
 }
 .s{
   background-color: #00000000;
-  width: 31vw;
+  width: 33vw;
   height: 5vh;
   color: #91caff;
   font-weight: 600;
@@ -760,11 +772,11 @@ form{
 }
 .f{
   background-color: #000000;
-  width: 8vw;
+  width: 8.5vw;
   height: 5vh;
   color: #ff7f7f;
   border: #ff0000af solid 2px;
-  border-radius: 5px;
+  border-radius: 10px;
   font-size: 15px;
   width: max-content;
   padding: 10px;
