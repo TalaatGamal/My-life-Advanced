@@ -53,11 +53,13 @@ body{
   form{
     background-color: #00250e00;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     text-align: center;
-    width: 25vw;
+    width: 23vw;
+    padding: 0px;
     height: 40vh;
     color: #ffffff;
     border-radius: 20px;
@@ -118,7 +120,7 @@ body{
   }
   input{
     background-color: #00000085;
-    width: 17vw;
+    width: 21vw;
     height: 5vh;
     color: #0091ff;
     border-radius: 8px;
@@ -128,6 +130,18 @@ body{
 }
 input::placeholder{
   color: #ffffffa9;
+}
+#age{
+  width: 6vw;
+}
+#age1{
+  width: 3.5vw;
+}
+#age2{
+  width: 3.5vw;
+}
+#age3{
+  width: 3.5vw;
 }
 .footer-sec{
     color: #ffffff;
@@ -744,7 +758,7 @@ form{
   align-items: center;
   justify-content: center;
   text-align: center;
-  width: 100vw;
+  width: 71vw;
   height: 35vh;
   color: #ffffff;
   border-radius: 20px;
