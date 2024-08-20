@@ -22,13 +22,6 @@ body{
 }
                     /*Start SEcurity*/
 #password-form {
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    padding-right: 20vw;
-    padding-left: 10vw;
-    padding-top: 6.5vw;
-    align-items: start;
     height: 100vh;
     background-color: #08798a;
     /* background-image: url(https://images.unsplash.com/photo-1722941600511-e133ca2fc837?q=80&w=1965&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D); */
@@ -45,8 +38,20 @@ body{
     background-size: 120%;
     background-attachment: fixed;
   }
+  .home-pass-cont-back{
+    background-color: #000000d7;
+    width: 100vw;
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* padding-right: 20vw;
+    padding-left: 10vw;
+    padding-top: 6.5vw; */
+    align-items: center;
+  }
   form{
-    background-color: #00250e82;
+    background-color: #00250e00;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -58,7 +63,7 @@ body{
     border-radius: 20px;
     border: #8a0000 solid 4px;
     gap: 20px;
-    background-image: url(https://media.istockphoto.com/id/1333258045/photo/drone.jpg?s=2048x2048&w=is&k=20&c=d3eHyV9vfiYIVu2U9HnzX2lLHGjrZ_d_7X9whXTpnAo=);
+    /* background-image: url(https://media.istockphoto.com/id/1333258045/photo/drone.jpg?s=2048x2048&w=is&k=20&c=d3eHyV9vfiYIVu2U9HnzX2lLHGjrZ_d_7X9whXTpnAo=); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: 500%;
