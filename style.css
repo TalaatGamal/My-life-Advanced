@@ -777,7 +777,7 @@ form img{
   width: 45vw;
   border-radius: 100px;
   margin: 30px;
-  opacity: 30%;
+  opacity: 55%;
 }
 .s{
   background-color: #00000000;
@@ -852,8 +852,9 @@ input{
 }
 input::placeholder{
 /* color: #ffffffa9; */
-color: #ff000087;
-font-weight: 700;
+color: #91caff;
+font-weight: 600;
+font-size: 18px;
 }
 
 
