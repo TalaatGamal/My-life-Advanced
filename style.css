@@ -134,17 +134,11 @@ body{
 input::placeholder{
   color: #ffffffa9;
 }
-#age{
-  width: 6vw;
+.rotate{
+  display: none;
 }
-#age1{
-  width: 3.5vw;
-}
-#age2{
-  width: 3.5vw;
-}
-#age3{
-  width: 3.5vw;
+.rotateo{
+  display: none;
 }
 .footer-sec{
     color: #ffffff;
@@ -858,7 +852,7 @@ font-size: 18px;
 }
 
 
-.rotate {
+.rotate{
   width: 10vw;
   min-width: 10vw;
   height: 0vh;
@@ -875,7 +869,7 @@ font-size: 18px;
   left: 100px;
   z-index: 5;
   box-shadow: #ffffff 0px 0px 100px 20px;
-
+  display: block;
 
 }
 @keyframes rotation {
@@ -914,7 +908,7 @@ font-size: 18px;
   right: 100px;
   z-index: 5;
   box-shadow: #ffffff 0px 0px 50px 10px;
-
+  display: block;
 
 }
 @keyframes rotationo {
