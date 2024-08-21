@@ -759,7 +759,7 @@ form{
   justify-content: center;
   text-align: center;
   width: 71vw;
-  height: 35vh;
+  height: 20vh;
   color: #ffffff;
   border-radius: 20px;
   border: #8a000000 solid 4px;
@@ -777,9 +777,11 @@ form{
   color: #91caff;
   font-weight: 600;
   font-size: 18px;
-  border-radius: 20px;
+  border-radius: 10px;
   border: #0091ff00 solid 2px;
   border-bottom: #0088ff solid 3px;
+  /* border-left: #00ff9d4d double 6px;
+  border-right: #00ff9d4d double 6px; */
   box-shadow: #0088ff74 0px 30px 50px 2px;
 }
 
@@ -787,17 +789,34 @@ form{
   cursor:progress;
 }
 .f{
-  background-color: #000000;
+  background-color: #00000000;
+  width: max-content;
+  height: max-content;
+  color: #ff7f7f00;
+  border: #ff000000 solid 2px;
+  border-radius: 0px;
+  /* font-size: 15px; */
+  width: max-content;
+  padding: 0px;
+}
+.f-h2{
+  background-color: #00000000;
   width: 8.5vw;
-  height: 5vh;
-  color: #ff7f7f;
-  border: #ff000074 solid 2px;
-  border-radius: 10px;
-  font-size: 15px;
+  height: max-content;
+  color: #ff75754d;
+  border: #ff000000 solid 2px;
+  border-radius: 0px;
+  font-weight: 500;
+  font-size: 20px;
   width: max-content;
   padding: 10px;
+  padding-right: 20px;
+  margin-left: 5vw;
+  border: #0091ff00 solid 2px;
+  border-right: #ff00004d solid 6px;
+  box-shadow: #ff000025 60px 0px 50px 2px;
 }
-.f:hover{
+.f-h2:hover{
   cursor:progress;
 }
 #age{
