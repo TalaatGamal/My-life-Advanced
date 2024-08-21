@@ -5,7 +5,7 @@
 
 
     document.addEventListener('DOMContentLoaded', (event) => {
-    const correctPassword = 'GqoY2486WsmL0Quatra0M'; // حدد كلمة السر الصحيحة هنا
+    const correctPassword = 'Talaat';
 
     const form = document.getElementById('form');
     const passwordInput = document.getElementById('password');
@@ -52,29 +52,3 @@
       });
     });
   });
-
-                                            
-                                            
-                                            // private btn mobile
-                                            
-                                            
-
-  document.addEventListener('DOMContentLoaded', (event) => {
-    const protectedLinks = document.querySelectorAll('.pro');
-    const correctPassword = 'porn'; // حدد كلمة السر الصحيحة هنا
-
-    protectedLinks.forEach(link => {
-      link.addEventListener('click', (event) => {
-        event.preventDefault(); // لمنع التحويل التلقائي للصفحة
-        const userPassword = prompt('Please enter the password:');
-        
-        if (userPassword === correctPassword) {
-          window.location.href = link.href; // التحويل للصفحة المطلوبة
-        } else {
-          alert('Incorrect password!'); // عرض رسالة خطأ
-        }
-      });
-    });
-  });
-
-
