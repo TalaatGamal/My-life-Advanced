@@ -772,6 +772,7 @@ form img{
   border-radius: 100px;
   margin: 30px;
   opacity: 55%;
+  z-index: 10;
 }
 .s{
   background-color: #00000000;
@@ -866,7 +867,7 @@ font-size: 18px;
   border-left: #28bb0000 solid 4px;
   position: fixed;
   bottom: 30vh;
-  left: 100px;
+  left: 70px;
   z-index: 5;
   box-shadow: #ffffff 0px 0px 100px 20px;
   display: block;
@@ -905,7 +906,7 @@ font-size: 18px;
   border-left: #28bb0000 solid 4px;
   position: fixed;
   top: 30vh;
-  right: 100px;
+  right: 70px;
   z-index: 5;
   box-shadow: #ffffff 0px 0px 50px 10px;
   display: block;
