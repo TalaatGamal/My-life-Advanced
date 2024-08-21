@@ -761,7 +761,7 @@ form{
   align-items: center;
   justify-content: center;
   text-align: center;
-  width: 71vw;
+  width: 80vw;
   height: 20vh;
   color: #ffffff;
   border-radius: 20px;
@@ -774,7 +774,7 @@ form{
   margin-bottom: 60vh;
 }
 form img{
-  width: 40vw;
+  width: 45vw;
   border-radius: 100px;
   margin: 30px;
   opacity: 30%;
@@ -820,7 +820,7 @@ form img{
   width: max-content;
   padding: 10px;
   padding-right: 20px;
-  margin-left: 5vw;
+  margin-left: 10vw;
   border: #0091ff00 solid 2px;
   border-right: #ff00004d solid 6px;
   box-shadow: #ff000025 60px 0px 50px 2px;
@@ -842,7 +842,7 @@ form img{
 }
 input{
   background-color: #00000085;
-  width: 70vw;
+  width: 90vw;
   height: 5vh;
   color: #0091ff;
   border-radius: 8px;
