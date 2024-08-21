@@ -851,7 +851,9 @@ input{
   font-size: 16px;
 }
 input::placeholder{
-color: #ffffffa9;
+/* color: #ffffffa9; */
+color: #ff000087;
+font-weight: 700;
 }
 
 
