@@ -2,41 +2,6 @@
 
     // Security page
 
-    // window.addEventListener('load', function() {
-    //     var audio = document.getElementById("myAudio");
-    //     audio.play().catch(function(error) {
-    //         console.log("تم منع تشغيل الصوت تلقائيًا: " + error);
-    //     });
-    // });
-
-
-    // document.getElementById("playButton").addEventListener('click', function() {
-    //     var audio = document.getElementById("myAudio");
-    //     audio.play().catch(function(error) {
-    //         console.log("حدث خطأ أثناء تشغيل الصوت: " + error);
-    //     });
-    // });
-
-
-    // window.addEventListener('load', function() {
-    //     var audio = document.getElementById("myAudio");
-    //     audio.muted = false;
-    //     audio.play().catch(function(error) {
-    //         console.log("تم منع تشغيل الصوت تلقائيًا: " + error);
-    //     });
-    // });
-
-
-    // window.addEventListener('load', function() {
-    //     var video = document.getElementById("myVideo");
-    //     video.muted = false; // إزالة الكتم إذا كان الصوت جزءًا من التجربة.
-    //     video.play().catch(function(error) {
-    //         console.log("تم منع تشغيل الفيديو تلقائيًا: " + error);
-    //     });
-    // });
-
-
-
     document.addEventListener('DOMContentLoaded', (event) => {
     const correctPassword = 'Talaat';
 

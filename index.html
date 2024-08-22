@@ -23,8 +23,6 @@
 <body>
     <div id="password-form">
         <div class="home-pass-cont-back">
-           <!-- <audio id="myAudio" src="sounds/yama_lyaly_want_msh_maaya.mp3"></audio>--> <!--auto sound-background-->
-            <!-- <audio id="myAudio" src="sounds/yama_lyaly_want_msh_maaya.mp3" muted autoplay></audio> -->
             <video id="video1" autoplay loop playsinline class="sara1">
                 <source src="videos/في حياتنا ناس ساره هيثم.mp4" type="video/mp4">
                 متصفحك لا يدعم تشغيل الفيديو.
@@ -48,14 +46,14 @@
                         video1.play().catch(function(error) {
                             console.log("حدث خطأ أثناء تشغيل الفيديو الأول: " + error);
                         });
-                    } else if (clickCount === 2) {
-                        video1.pause();  // إيقاف الفيديو الأول
-                        video2.play().catch(function(error) {
-                            console.log("حدث خطأ أثناء تشغيل الفيديو الثاني: " + error);
-                        });
-                    } else {
-                        clickCount = 0; // إعادة العد بعد النقر الثاني
-                        video2.pause();  // إيقاف الفيديو الثاني
+                    // } else if (clickCount === 2) {
+                    //     video1.pause();  // إيقاف الفيديو الأول
+                    //     video2.play().catch(function(error) {
+                    //         console.log("حدث خطأ أثناء تشغيل الفيديو الثاني: " + error);
+                    //     });
+                    // } else {
+                    //     clickCount = 0; // إعادة العد بعد النقر الثاني
+                    //     video2.pause();  // إيقاف الفيديو الثاني
                     }
                 });
             </script>
@@ -110,6 +108,7 @@
                                 <li><a href="my-accounts/index.html">Accounts</a></li>  
                                 <li><a href="All-of-my-photos/index.html">Photos</a></li>
                                 <li><a href="my-friends/index.html">Friends</a></li>
+                                <li><a href="my-friends/index.html">Fev Content Creator</a></li>
                             </ul> 
                             <div class="menu-icon" onclick="toggleMenu()">&#9776;</div><!--uu-->
                         </div>
