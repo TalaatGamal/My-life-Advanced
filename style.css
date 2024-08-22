@@ -493,7 +493,6 @@ form img{
   width: 2vw; 
   height: 3vh;
   background-color: #00909d00;
- 
 }
 @keyframes move-arrow-in {
   0% {
@@ -642,17 +641,14 @@ form img{
       height: 6vh;
       top: 0vh;
   }
-  
 .pho{
   width: 9vw;
   margin-right: 15px;
 }
-
 .content-header{
   width: 100vw;
   height: 100%;
 }
-
 .b-h1{
   font-size: 3.9vw;
 }
@@ -682,7 +678,6 @@ form img{
   padding: 20px;
   border-radius: 0px;
 }
-
 .footer-sec{
   color: #ffffff;
   overflow: hidden;
@@ -723,7 +718,6 @@ border-right: #00a6ff solid 2px;
 padding: 10px;
 background-color: #0095ff00;
 /* border-radius: 10px; */
-
 }
 .pass-info{
   background-color: #004e8a00;
@@ -815,7 +809,6 @@ form img{
   border-right: #00ff9d4d double 6px; */
   box-shadow: #0088ff74 0px 30px 50px 2px;
 }
-
 .s:hover{
   cursor:progress;
 }
@@ -884,7 +877,6 @@ font-size: 18px;
   z-index: 5;
   box-shadow: #ffffff 0px 0px 100px 20px;
   display: block;
-
 }
 @keyframes rotation {
   0% {
@@ -906,7 +898,6 @@ font-size: 18px;
       transform: rotate(360deg);
   } */
 }
-
 .rotateo {
   width: 13vw;
   height: 0vh;

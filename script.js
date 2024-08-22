@@ -21,34 +21,10 @@
         content.style.display = 'block';
         document.body.style.display = 'block'; // عرض محتوى الصفحة
         } else {
-        alert('Incorrect password!');
-        window.location.href = 'https://www.google.com'; // تحويل إلى Google
+        alert('Incorrect ⚠️ password!⚠️  please ⚠️ re enter ⚠️ your password ⚠️ ❌');
+        window.location.href = 'https://www.kali.org/'; // this is nice site 555555😂😂←←←←←←
         }
     });
 
     document.body.style.display = 'block'; // عرض نموذج كلمة المرور
     });
-
-                                            
-                                            
-                                            // private btn header
-                                            
-                                            
-
-  document.addEventListener('DOMContentLoaded', (event) => {
-    const protectedLinks = document.querySelectorAll('.pro2');
-    const correctPassword = 'porn'; // حدد كلمة السر الصحيحة هنا
-
-    protectedLinks.forEach(link => {
-      link.addEventListener('click', (event) => {
-        event.preventDefault(); // لمنع التحويل التلقائي للصفحة
-        const userPassword = prompt('Please enter the password:');
-        
-        if (userPassword === correctPassword) {
-          window.location.href = link.href; // التحويل للصفحة المطلوبة
-        } else {
-          alert('Incorrect password!'); // عرض رسالة خطأ
-        }
-      });
-    });
-  });
