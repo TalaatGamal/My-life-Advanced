@@ -561,7 +561,7 @@ form img{
 .b-h1{
   font-size: 1.5vw;
   overflow: hidden;
-  animation: bh1 9s linear infinite;
+  animation: bh1 5s linear infinite;
 } 
 @keyframes bh1 {
   0% {
@@ -580,7 +580,7 @@ form img{
 .b-h2{
   font-size: 1.5vw;
   overflow: hidden;
-  animation: bh2 9s linear infinite;
+  animation: bh2 5s linear infinite;
 }  
 @keyframes bh2 {
   0% {
@@ -597,16 +597,16 @@ form img{
   }
 }
 .cov-bh1{
-  /* background-color: #0088ff; */
-  min-width: 10vw;
+  background-color: #0088ff2d;
+  /* max-width: 10vw; */
   display: inline-flex;
   justify-content: right;
   border-radius: 10px;
   overflow: hidden;
 }
 .cov-bh2{
-  /* background-color: #0088ff; */
-  min-width: 10vw;
+  background-color: #0088ff2e;
+  /* max-width: 40vw; */
   display: inline-flex;
   justify-content: left;
   border-radius: 10px;
@@ -673,10 +673,10 @@ form img{
   height: 100%;
 }
 .b-h1{
-  font-size: 3.9vw;
+  font-size: 5vw;
 }
 .b-h2{
-  font-size: 3.9vw;
+  font-size: 5vw;
 }
 .arrow-div{
   top: 92vh;
