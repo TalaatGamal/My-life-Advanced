@@ -25,7 +25,7 @@ body{
 }
                     /*Start SEcurity*/
 .sara1{
-  width: 22vw;
+  width: 17vw;
   /* height: 100vh; */
   position: absolute;
   z-index: 0;
@@ -35,9 +35,9 @@ body{
   border: #00eaff solid 3px;
 
 }
-.sara2{
+/* .sara2{
   width: 27vw;
-  /* height: 100vh; */
+  /* height: 100vh; *//*
   position: absolute;
   z-index: 0;
   top: 19vh;
@@ -45,7 +45,7 @@ body{
   border-radius: 10px;
   border: #00eaff solid 3px;
 
-}
+} */
 #password-form {
     height: 100vh;
     background-color: #08798a;
